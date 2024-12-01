@@ -1,0 +1,95 @@
+body {
+    background: url('sunflower_bg.jpg') no-repeat center center/cover;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #5a3d2b;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    padding: 2rem;
+    max-width: 600px;
+    margin: 5% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #ffcc00;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #8b4513;
+}
+
+.note {
+    background-color: #fffbe6;
+    border: 2px solid #ffcc00;
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.fortune-container {
+    margin-top: 2rem;
+}
+
+
+
+.cookie {
+    font-size: 4rem;  /* Large cookie emoji */
+    cursor: pointer;  /* Indicates it's clickable */
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.click-prompt {
+    font-size: 1.4rem;
+    color: #8b4513;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #f0e68c;
+}
+
+.fortune-container {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+.cookie:hover {
+    transform: scale(1.1);
+}
+
+#fortuneText {
+    font-size: 1.5rem;
+    color: #d2691e;
+    margin-top: 1.5rem;
+}
+
+button {
+    background-color: #ffcc00;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 1rem;
+    display: inline-block;
+}
+
+button:hover {
+    background-color: #ffa500;
+}
+
+.hidden {
+    display: none;
+}
