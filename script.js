@@ -1,7 +1,7 @@
 function crackCookie() {
     var fortuneText = document.getElementById("fortuneText");
     fortuneText.classList.remove("hidden");
-    fortuneText.innerHTML = "Your fortune: Soon, you’ll be enjoying a coffee date with a quirky guy who makes fun websites. 😉🍪";
+    fortuneText.innerHTML = "Your fortune: A coffee date with someone trying to make you smile is coming soon. 😉";
 }
 
 function resetCookie() {
